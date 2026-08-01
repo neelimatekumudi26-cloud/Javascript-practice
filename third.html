@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function inLeapYear(year){
+
+            if (year % 400 === 0){
+                return true;
+            }else if(year % 100 === 0){
+             return false;
+            }else if (year % 4 === 0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+
+        inLeapYear();
+    </script>
+</body>
+</html>
